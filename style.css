@@ -1,0 +1,197 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.heading a{
+    font-size: 15px;
+    font-weight: 700;
+}
+.heading .navbar-light .navbar-nav .nav-link{
+    padding: 20px 25px;
+}
+.header{
+    text-align: center;
+    margin-top: 20px;
+}
+.carousel-inner {
+    position: relative;
+    height: 600px;
+}
+
+.carousel.slide .container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    max-width: none;
+}
+
+.carousel.slide .container .banner {
+    position: relative;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.carousel.slide .container .banner h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    
+}
+
+.carousel.slide .container .banner h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.contacts{
+    text-align: center;
+    background-color: black;
+    padding: 60px;
+}
+.contacts h3{
+    color: rgb(111, 203, 245);
+    font-size: 20px;
+}
+.contacts p,a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.services{
+    background-color: whitesmoke;
+    padding: 120px 0 180px;
+    text-align: center;
+}
+.services .col-lg-4{
+    position: relative;
+    padding: 0px 15px;
+    margin-top: 70px;
+}
+.services .col-lg-4 img{
+    background-color: rgb(111, 203, 245);
+    border-radius: 50px;
+    padding: 30px;
+    position: absolute;
+    top: 0px;
+    transform: translate(-50%, -50%);
+    
+}
+.services .items{
+    background-color: white;
+    box-shadow: 5px 5px 8px lightgrey;
+    padding: 50px 50px;
+    height: 100%;
+    
+}
+.services .items h3{
+    padding: 30px 0px;
+}
+.services .items p{
+    font-size: 20px;
+    color: gray;
+}
+
+.about-us{
+    background-color: rgb(111, 203, 245);
+    padding: 50px 0;
+}
+.about-us .col-lg-4{
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+.about-us .col-lg-4 img{
+    width: 100%;
+    height: 100%;
+    min-height: 380px;
+}
+.about-us .col-lg-4 .post{
+    border: 3px solid white;
+    padding: 80px 30px;
+    color: white;
+    height: 100%;
+    min-height: 380px;
+}
+.about-us .col-lg-4 .post-2{
+    border: 3px solid black;
+    padding: 80px 30px;
+    color: white;
+    height: 100%;
+    background-color: black;
+    min-height: 380px;
+}
+.about-us h3{
+    padding-bottom: 25px;
+    font-weight: 900;
+    font-size: 35px;
+}
+.about-us p{
+    font-weight: 400;
+}
+
+.blog-container{
+    text-align: center;
+    padding: 150px 0;
+}
+.blog-container .blog-header{
+    padding-bottom: 50px;
+}
+.blog-container .blog-header h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.blog-container .blog-header h3{
+    color: gray;
+    line-height: 0%;
+    font-weight: 300;
+}
+.blog-container img{
+    width: 100%;
+}
+.card{
+    box-shadow: 2px 2px 10px lightgrey;
+}
+.blog-container .card-body{
+    padding: 50px 40px;
+}
+.blog-container .card-body h4{
+    height: 100px;
+}
+.blog-container .card-body p{
+    font-size: 20px;
+    color: gray;
+}
+.blog-container .card-footer{
+    display: flex;
+}
+.blog-container .icon{
+    flex: 1;
+}
+.card-footer{
+    padding: 0;
+}
+.blog-container .card-footer .icon{
+    padding: 20px 10px 0;
+}
+.blog-container .card-footer .icon.border-right{
+    border-right: 1px solid #e6e6e6;
+}
+.blog-container .card-footer .icon img{
+    width: 20px;
+    margin-bottom: 10px;
+}
+.blog-container .card-footer .icon p{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer{
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    padding: 100px 0;
+}
+.footer h3{
+    color: white;
+}
